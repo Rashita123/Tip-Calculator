@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip-calculator</title>
+    <link href="stylesheet.css" rel="stylesheet"></link>
+</head>
+<body>
+    <div class="outer-div">
+        <h1 style="text-align: center;">Tip Calculator</h1>
+        <div class="inner-div">
+            <div class="enter-bill">
+                <h3>Bill Amount</h3>
+                <input class="input-value" type="text" placeholder="Enter your Bill"></input>    
+            </div> 
+
+            <div class="tip-div">
+                <h3>Select Tip</h3>
+                <p class="tip-percentage">10%</p> 
+                <div class="tip-slider">
+                    <input class="tipSlider" type="range" min="0" max="100" value="10"></input>
+                </div>    
+            </div> 
+
+
+            <div class="tip-display">
+                <h3>Tip:</h3>
+                <p class="tip-displayy">$0</p>    
+            </div>  
+            
+            
+            <hr>
+            <div class="display-total">
+                <h3>Total</h3>
+                <p class="display-total-amount">$0</p>
+            </div>
+        </div> 
+        
+        
+        <div class="inner-2">
+            <div class="split-section">
+                <h3>Split</h3>
+                <p class="people-display">2 person</p>
+                <input class="splitSlider" type="range" min="0" max="10" value="2"></input>
+            </div>
+            <div class="split-display-section">
+                <div class="Bill-each">
+                    <h3>Bill Each</h3>
+                    <p class="bill">$flana</p>
+                </div>
+                <div class="Tip-each">
+                    <h3>Tip Each</h3>
+                    <p class="tip">$flana</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>

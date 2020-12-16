@@ -1,0 +1,105 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+background-color: #B6D094;
+}
+.outer-div{
+    width: 400px;
+    margin: 2rem auto;
+    background-color: #E1AA7D;
+    border-radius: 16px;
+    padding: 1rem;
+
+}
+.inner-div{
+    background-color: #B6D094;
+    padding: 1rem;
+    border-radius: 16px;
+}
+.enter-bill h3,input{
+    display: inline-block;
+}
+
+
+.enter-bill input{
+    float: right;
+    margin: 1em 0em 1em 0em;
+    background-color: transparent;
+    padding: 4px;
+}
+::placeholder { 
+    color: black;
+ }
+.tip-div h3,p{
+    display: inline-block;
+}
+.tip-div p{
+    float: right;
+}
+
+.tip-div .tip-slider input{
+    width: 100%;
+    margin: auto;
+}
+
+    input[type="range"] {
+
+        cursor: pointer;
+    }
+
+
+
+
+
+.tip-display h3,p{
+    display: inline-block;
+}
+.tip-display p{
+    float: right;
+}
+
+.display-total h3,p{
+    display: inline-block;
+}
+
+
+.display-total p{
+    float: right;
+}
+
+/* inner section -1 done */
+
+/* inner section 2 start */
+
+.inner-2{
+    background-color: #B6D094;
+    padding: 1rem;
+    border-radius: 16px;
+    margin-top: 1rem;
+}
+
+
+.splitSlider{
+    width: 100%;
+}
+
+.split-section h3,p{
+    display: inline-block;
+}
+.split-section p{
+    float: right;
+}
+
+.Bill-each h3,p{
+    display: inline-block;
+}
+
+.Bill-each p{
+    float: right;
+}
+.Tip-each h3,p{
+    display: inline-block;
+}
+
+.Tip-each p{
+    float: right;
+}
